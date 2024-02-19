@@ -9,6 +9,7 @@ pipeline {
 
         // cause the build to time out if it runs for more than 12 hours
         timeout(time: 12, unit: 'HOURS')
+        
 
         // add timestamps to the log
         timestamps()
